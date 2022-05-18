@@ -80,6 +80,10 @@ p {
   display: flex;
 }
 
+.project img:hover {
+  transform:scale(1.1)
+}
+
 .icon img {
   background-color: white;
 }
@@ -111,6 +115,10 @@ p {
   height: auto;
   width: 300px;
   display: flex
+}
+
+.language img:hover {
+  transform: scale(1.1)
 }
 
 .language h1 {
