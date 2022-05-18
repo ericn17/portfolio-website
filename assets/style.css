@@ -1,0 +1,157 @@
+/* universal selector */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  color: black;
+}
+
+/* element selector */
+body {
+  background-color: #f7fcfc;
+}
+
+/* class selectors */
+.header {
+  padding: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f0e6e7;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
+}
+
+/* header (top right side) */
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* profile picture and about me*/
+.profile {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: aqua;
+}
+
+.profile img{
+  height: auto;
+  width: 400px;
+}
+
+.about-me {
+  width: 1200px;
+}
+
+.main {
+  width: -500px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me h1 {
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+/* Project icons deploys when clicked on*/
+.project img {
+  height: auto;
+  width: 300px;
+  display: flex;
+}
+
+.icon img {
+  background-color: white;
+}
+
+.project {
+  max-width: 95%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project h2 {
+  font-size: 50px;
+}
+
+/* languages */
+.language {
+  max-width: 95%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.language img {
+  height: auto;
+  width: 300px;
+  display: flex
+}
+
+.language h1 {
+  font-size: 50px;
+}
+
+/* Contact information */
+.contact {
+  background-color: aqua;
+  font-size: 30px;
+  margin: auto;
+  width: auto;
+  border: 3px solid rgb(197, 88, 88);
+  padding: 10px;
+}
+
+.contact h1 {
+  font-size: 50px;
+}
+
+/* media query */
+@media screen and (max-width: 1400px) {
+  .profile img  {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .project img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .language img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .contact {
+    width: 50%;
+  }
+}
